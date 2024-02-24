@@ -101,7 +101,7 @@ const InputDetails = () => {
         email: email
       };
 
-      const response = await fetch("http://54.147.129.172:8000/create", {
+      const response = await fetch("http://34.238.38.27:8000/create", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)

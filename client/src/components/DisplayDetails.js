@@ -9,7 +9,7 @@ const DisplayDetails = () => {
 
   const getEmployeeDetails = async () => {
     try {
-      const response = await fetch("http://54.147.129.172:8000/display", {
+      const response = await fetch("http://34.238.38.27:8000/display", {
         method: "GET",
         headers: {
           'Content-Type': "application/json"
@@ -31,7 +31,7 @@ const DisplayDetails = () => {
 
   const getEmployeeDeptCounts = async () => {
     try {
-      const response = await fetch("http:// 54.147.129.172:8000/employee-count-by-dept", {
+      const response = await fetch("http://localhost:8000/employee-count-by-dept", {
         method: "GET",
         headers: {
           'Content-Type': "application/json"

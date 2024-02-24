@@ -74,7 +74,7 @@ const OtherDetails = () => {
         doj: doj,
       };
 
-      const response = await fetch(`http://54.147.129.172:8000/otherdetails/${name}`, {
+      const response = await fetch(`http://34.238.38.27:8000/otherdetails/${name}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)
